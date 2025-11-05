@@ -1,8 +1,15 @@
 module github.com/npenkov/ckit2html
 
-go 1.14
+go 1.24.0
+
+toolchain go1.24.7
 
 require (
 	github.com/sirupsen/logrus v1.6.0
-	golang.org/x/net v0.0.0-20200501053045-e0ff5e5a1de5
+	golang.org/x/net v0.46.0
+)
+
+require (
+	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
+	golang.org/x/sys v0.37.0 // indirect
 )
