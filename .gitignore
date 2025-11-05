@@ -1,3 +1,6 @@
 *.tar.gz
 *.zip
 *.sha256.sum
+
+# Compiled binary
+ckit2html
